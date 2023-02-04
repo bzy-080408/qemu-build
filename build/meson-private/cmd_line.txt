@@ -1,0 +1,12 @@
+[options]
+kvm = enabled
+sdl = disabled
+gtk = disabled
+vnc = enabled
+werror = true
+vfio_user_server = disabled
+prefix = /usr
+
+[properties]
+native_file = ['/home/bzy/qemu/qemu/build/config-meson.cross']
+
